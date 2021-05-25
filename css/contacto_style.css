@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@400;600;700&family=Quicksand:wght@600;700&display=swap');
+
+
+/*titutlos para area de contacto*/
+
+#section-title{
+    width: 100%;    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    margin-top: 5rem;
+    font-size: 16pt;
+}
+                
+#section-title span {
+    background:#fff;
+    padding:0 10px;
+}
+
+.subtitle{
+    text-align: center;
+    left: 245px;
+    top: 264px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#section-title hr{
+    margin-top: 1.5rem;
+}
+
+/*Footer informarcion de contacto*/
+
+#nombre, #textarea, #email{
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 8px;
+
+}
+
+#nombre{
+    width: 200px;
+    height: 30px;
+} 
+
+#email{
+    width: 240px;
+    height: 30px;
+}
+
+.formulario{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.form-button{
+    padding: 0px 0;
+    text-align: center;
+}
+.formulario button{
+    width: 120px;
+    height: 30px;
+    border-radius: 16px;
+    border: 0px solid #162a9c;
+    box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+
+}
+
+.formulario button:hover{
+    cursor: pointer;
+}
+
+.formulario label{
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 12px;
+}
+
+
+/*Footer informarcion de contacto*/
+#logo-footer{
+    padding: 0px 0;
+    text-align: center;
+}
+
+.info_footer{
+    padding: 30px 0;
+    text-align: center;
+    float: right;
+    padding-top: 15px;
+}
+
+.footer-info{
+    /*display: flex;
+    align-items: center;*/
+    size: 2px;
+    padding-right: 2px;
+    
+}
+
+.footer-title{
+    font-size: 12px;
+    padding-left: 10px;
+    color: #343434;
+    font-weight: normal;
+    line-height: 21px;
+    /*display: flex;*/
+}
+
+#logo-footer img{
+    max-width: 20%;
+    align-self: center;
+}
