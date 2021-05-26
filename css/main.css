@@ -720,3 +720,17 @@ i:hover{
 .activeIcon{
     color: var(--main-color);
 }
+
+.SubirArchivop p{
+    color: black;
+    font-weight: bold;
+}
+
+.Perfil{
+    float:left;
+}
+
+.SubirArchivop{
+    float: right;
+}
+
