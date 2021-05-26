@@ -21,7 +21,7 @@
                 </div>
                 <div id="user-profile">
                     <div id="profile-picture">
-                        <img src="https://via.placeholder.com/150" alt="">
+                        <a href="ContenidoCargado.html"><img src="https://via.placeholder.com/150" alt=""></a>
                     </div>
                     <div id="user-data">
                         <h2><a href="ContenidoCargado.html">Username</a></h2>
@@ -30,11 +30,11 @@
                 </div>
                 <div id="tabs">
                     <ul>
-                        <li class="tab-container "><a href="index.html"> <i class="fas fa-home"></i></a> <h4 class="tab-title">Inicio</a></h4></li>
+                        <li class="tab-container "><a href="index.html"> <i class="fas fa-home"></i><a href="index.html"><h4 class="tab-title">Inicio</a></h4></li>
                         <li class="tab-container active-tab"><i class="fas fa-compass"></i> <h4 class="tab-title"><a href="busqueda.html">Explorar</a></h4></li>
                         <li class="tab-container"><a href=""><i class="fas fa-bookmark"></i></a> <h4 class="tab-title">Guardados</a></h4></li>
                         <li class="tab-container"><i class="fas fa-bell"></i> <h4 class="tab-title"><a href="">Notificaciones</a></h4> <div class="notif-cant">4</div></li>
-                        <li class="tab-container"><i class="fas fa-cog"></i> <h4 class="tab-title"><a href="">Configuracion</a></h4></li>
+                        <li class="tab-container"><i class="fas fa-cog"></i> <h4 class="tab-title"><a href="adminusuario1.html">Configuracion</a></h4></li>
                     </ul>
                 </div>
                 <div class="separator">
@@ -216,40 +216,25 @@
 
 
         <section id="right">
-            <div class="sug-title">
-                <h1>Búsqueda</h1>
-            </div>
-            <br>
-            <div>
-                <div class="sug-user-data">
-                    <h2>Temas</h2>
-                </div>
-                <br>
-                <div class="sug-topic-data">
-                    <ul>
-                        <li><input type="checkbox" id="T1" onclick="Buscar('Tema 1')"> Tema 1</li>
-                        <li><input type="checkbox" id="T2" onclick="Buscar('Tema 2')"> Tema 2</li>
-                        <li><input type="checkbox" id="T3" onclick="Buscar('Tema 3')"> Tema 3</li>
-                    </ul>
-                </div>
-            </div>
-                
-                <div class="separator">
-                    <hr>
-                    <div class="collapse">
-                        <i class="fas fa-chevron-down"></i>
+            <div class="inner-r">
+                <div class="sugestions">
+                    <div class="sug-title">
+                        <h1>Búsqueda</h1>
                     </div>
-                </div>
-                <div class="sug-title">
-                    <h1>Ubicación</h1>
-                </div>
-                <br>
-                <div class="sug-topic-data">
-                    <ul>
-                        <li><input type="checkbox" id="U1" onclick="Buscar('Ubicación Actual')"> Ubicación actual </li>
+                    <br>
+                    <div>
+                        <div class="sug-user-data">
+                            <h2>Temas</h2>
+                        </div>
                         <br>
-                        <li><input type="checkbox" name="U2" id="" onclick="Buscar('Ubicación Preferida')"><Input type="text" class="UbicacionPreferida" placeholder="Ubicación preferida"></li>
-                    </ul>
+                        <div class="sug-topic-data">
+                            <ul>
+                                <li><input type="checkbox" id="T1" onclick="Buscar('Tema 1')"> Tema 1</li>
+                                <li><input type="checkbox" id="T2" onclick="Buscar('Tema 2')"> Tema 2</li>
+                                <li><input type="checkbox" id="T3" onclick="Buscar('Tema 3')"> Tema 3</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="separator">
                     <hr>
@@ -257,27 +242,53 @@
                         <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <div class="sug-title">
-                    <h1>Social</h1>
-                </div>
-                <div class="sug-topic-data">
-                    <ul>
-                        <li><input type="checkbox" id="S1" onclick="Buscar('Comunidad')"> Comunidades</li>
-                        <li><input type="checkbox" id="S2" onclick="Buscar('Grupos')"> Grupos</li>
-                        <li><input type="checkbox" id="S3" onclick="Buscar('Amigos')"> Amigos</li>
-                        <li><input type="checkbox" id="S4" onclick="Buscar('Seguidores')"> Seguidores</li>
-                    </ul>
-                </div>
-                
+                <div class="sugestions">
+                    <div class="sug-title">
+                        <h1>Ubicación</h1>
+                    </div>
+                    <br>
+                    <div class="sug-topic-data">
+                        <ul>
+                            <li><input type="checkbox" id="U1" onclick="Buscar('Ubicación Actual')"> Ubicación actual </li>
+                            <br>
+                            <li><input type="checkbox" name="U2" id="" onclick="Buscar('Ubicación Preferida')"><Input type="text" class="UbicacionPreferida" placeholder="Ubicación preferida"></li>
+                        </ul>
+                    </div>
+                </div>   
                 <div class="separator">
                     <hr>
                     <div class="collapse">
                         <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <div class="sug-topic-data">
-                    <ul><input type="checkbox" id="restringir" onclick="Buscar('Resultados de Búsqueda')"> Restablecer</ul>
+                <div class="sugestions">
+                    
+                    <div class="sug-title">
+                        <h1>Social</h1>
+                    </div>
+                    <div class="sug-topic-data">
+                        <ul>
+                            <li><input type="checkbox" id="S1" onclick="Buscar('Comunidad')"> Comunidades</li>
+                            <li><input type="checkbox" id="S2" onclick="Buscar('Grupos')"> Grupos</li>
+                            <li><input type="checkbox" id="S3" onclick="Buscar('Amigos')"> Amigos</li>
+                            <li><input type="checkbox" id="S4" onclick="Buscar('Seguidores')"> Seguidores</li>
+                        </ul>
+                    </div>
                 </div>
+                <div class="separator">
+                    <hr>
+                    <div class="collapse">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>  
+                <div class="sugestions">
+                    <div class="sug-topic-data">
+                        <ul><input type="checkbox" id="restringir" onclick="Buscar('Resultados de Búsqueda')"> Restablecer</ul>
+                    </div>
+                </div>    
+                    
+            </div>
+            
                 
         </section>
     </main>
