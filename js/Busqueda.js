@@ -21,11 +21,7 @@ comment.onclick =() =>{
     document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
 }   
 
-query1.onclick =() =>{
-    titulopost=document.getElementById("BusquedaTitle").textContent=document.getElementById('textobusqueda').value
-    overlay.classList.toggle('hidden')
-    document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
-}   
+
 
 
 closeBtn.onclick = () =>{
@@ -33,9 +29,16 @@ closeBtn.onclick = () =>{
     document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
 }
 
+
 function myFunction(x) {
     x.classList.toggle("fas");
   }
+
+query1.onclick = () =>{
+    overlay.classList.toggle('hidden')
+    document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
+}   
+
 
 function Buscar(x) {
     document.getElementById("section-title-h1").textContent= x
