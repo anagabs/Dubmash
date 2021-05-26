@@ -30,6 +30,11 @@
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius:30px;
 }
+
+.logo img{
+	max-width: 40%;
+	align-self: center;
+ }
 .e4_73 { 
 	color:rgba(0, 0, 0, 1);
 	width:212px;
