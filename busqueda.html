@@ -216,41 +216,69 @@
 
 
         <section id="right">
-            <h1>Búsqueda</h1>
-                <ul>Temas
-                    <li><input type="checkbox" id="T1" onclick="Buscar('Tema 1')"> Tema 1</li>
-                    <li><input type="checkbox" id="T2" onclick="Buscar('Tema 2')"> Tema 2</li>
-                    <li><input type="checkbox" id="T3" onclick="Buscar('Tema 3')"> Tema 3</li>
-                </ul>
+            <div class="sug-title">
+                <h1>Búsqueda</h1>
+            </div>
+            <br>
+            <div>
+                <div class="sug-user-data">
+                    <h2>Temas</h2>
+                </div>
+                <br>
+                <div class="sug-topic-data">
+                    <ul>
+                        <li><input type="checkbox" id="T1" onclick="Buscar('Tema 1')"> Tema 1</li>
+                        <li><input type="checkbox" id="T2" onclick="Buscar('Tema 2')"> Tema 2</li>
+                        <li><input type="checkbox" id="T3" onclick="Buscar('Tema 3')"> Tema 3</li>
+                    </ul>
+                </div>
+            </div>
+                
                 <div class="separator">
                     <hr>
                     <div class="collapse">
                         <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <ul>Ubicación
-                    <li><input type="checkbox" id="U1" onclick="Buscar('Ubicación Actual')"> Ubicación actual </li>
-                    <li><input type="checkbox" name="U2" id="" onclick="Buscar('Ubicación Preferida')"><Input type="text" class="UbicacionPreferida" placeholder="Ubicación preferida"></li>
-                </ul>
+                <div class="sug-title">
+                    <h1>Ubicación</h1>
+                </div>
+                <br>
+                <div class="sug-topic-data">
+                    <ul>
+                        <li><input type="checkbox" id="U1" onclick="Buscar('Ubicación Actual')"> Ubicación actual </li>
+                        <br>
+                        <li><input type="checkbox" name="U2" id="" onclick="Buscar('Ubicación Preferida')"><Input type="text" class="UbicacionPreferida" placeholder="Ubicación preferida"></li>
+                    </ul>
+                </div>
                 <div class="separator">
                     <hr>
                     <div class="collapse">
                         <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <ul>Social
-                    <li><input type="checkbox" id="S1" onclick="Buscar('Comunidad')"> Comunidades</li>
-                    <li><input type="checkbox" id="S2" onclick="Buscar('Grupos')"> Grupos</li>
-                    <li><input type="checkbox" id="S3" onclick="Buscar('Amigos')"> Amigos</li>
-                    <li><input type="checkbox" id="S4" onclick="Buscar('Seguidores')"> Seguidores</li>
-                </ul>
+                <div class="sug-title">
+                    <h1>Social</h1>
+                </div>
+                <div class="sug-topic-data">
+                    <ul>
+                        <li><input type="checkbox" id="S1" onclick="Buscar('Comunidad')"> Comunidades</li>
+                        <li><input type="checkbox" id="S2" onclick="Buscar('Grupos')"> Grupos</li>
+                        <li><input type="checkbox" id="S3" onclick="Buscar('Amigos')"> Amigos</li>
+                        <li><input type="checkbox" id="S4" onclick="Buscar('Seguidores')"> Seguidores</li>
+                    </ul>
+                </div>
+                
                 <div class="separator">
                     <hr>
                     <div class="collapse">
                         <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <ul><input type="checkbox" id="" onclick="Buscar('Resultados de Búsqueda')"> Restablecer</ul>
+                <div class="sug-topic-data">
+                    <ul><input type="checkbox" id="restringir" onclick="Buscar('Resultados de Búsqueda')"> Restablecer</ul>
+                </div>
+                
         </section>
     </main>
     <article class="overlay hidden">
