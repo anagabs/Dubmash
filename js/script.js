@@ -12,9 +12,11 @@ const star = document.getElementsByClassName('fa-star')
 
 for (let i = 0; i < images.length; i++) {
     images[i].onclick = () =>{
+        titulopost=document.getElementById("BusquedaTitle").textContent="Título del meme"
         overlay.classList.toggle('hidden')
         document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
-    }  
+    }
+    
 }
 
 for (let i = 0; i < comment.length; i++) {
@@ -108,14 +110,6 @@ collapseR.onclick = () =>{
     }
     
 }
-
-
-
-closeBtn.onclick = () =>{
-    overlay.classList.toggle
-    etElementsByTagName('body')[0].classList.toggle('lockScroll')
-}
-
 comment.onclick =() =>{
     titulopost=document.getElementById("BusquedaTitle").textContent="Título del meme"
     overlay.classList.toggle('hidden')
