@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Biryani:wght@400;600;700&family=Quicksand:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet');
+*{
+    font-family:'Quicksand';
+}
 body {
     background-color: #eee;
     background-repeat: no-repeat;
