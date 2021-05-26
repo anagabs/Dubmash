@@ -5,8 +5,8 @@
 }
 body {
     background-color: #eee;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-repeat: inherit;
+    background-size: cover;*/
 }
 
 a{
