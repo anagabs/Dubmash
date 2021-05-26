@@ -12,9 +12,11 @@ const star = document.getElementsByClassName('fa-star')
 
 for (let i = 0; i < images.length; i++) {
     images[i].onclick = () =>{
+        titulopost=document.getElementById("BusquedaTitle").textContent="Título del meme"
         overlay.classList.toggle('hidden')
         document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
-    }  
+    }
+    
 }
 
 for (let i = 0; i < comment.length; i++) {
@@ -108,10 +110,31 @@ collapseR.onclick = () =>{
     }
     
 }
+comment.onclick =() =>{
+    titulopost=document.getElementById("BusquedaTitle").textContent="Título del meme"
+    overlay.classList.toggle('hidden')
+    document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
+}   
+
+query1.onclick =() =>{
+    titulopost=document.getElementById("BusquedaTitle").textContent=document.getElementById('textobusqueda').value
+    overlay.classList.toggle('hidden')
+    document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
+}   
 
 
+closeBtn.onclick = () =>{
+    overlay.classList.toggle('hidden')
+    document.getElementsByTagName('body')[0].classList.toggle('lockScroll')
+}
 
+function myFunction(x) {
+    x.classList.toggle("fas");
+  }
 
+function Buscar(x) {
+    document.getElementById("section-title-h1").textContent= x
+}
 
 
 
