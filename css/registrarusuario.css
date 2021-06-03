@@ -5,15 +5,9 @@
 }
 body {
     background-color: #eee;
-<<<<<<< HEAD
-    /*background-repeat: inherit;
-    background-size: cover;*/
-=======
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover ;*/
->>>>>>> 87b80b2677fe2158d12c49f3c230ac8465503072
+
 }
-body img
+
 a{
     text-decoration: none;
     color: #000000;
@@ -63,6 +57,7 @@ a{
     padding: 10px 0;
     text-align: center;
     padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .form h3{
@@ -85,7 +80,9 @@ a{
     color: #000000
 }
 
-#usuario, #Nombre, #correoelectronico{
+
+
+#usuario, #Nombre, #correoelectronico #contrasena{
     width: 200px;
     height: 30px;
     border: 1px solid #C4C4C4;
@@ -97,15 +94,16 @@ a{
 }
 
 #FechadeNacimiento{
-    width: 100px;
+    width: 155px;
     height: 30px;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 8px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
+
 
 #correoelectronico{
     margin-left: 15px;
