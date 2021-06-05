@@ -20,15 +20,15 @@
 
                     INTEGRANTES:
 
-                                          Joseph Cano			                8-971-2154
+                                          Joseph Cano			                  8-971-2154
 
-                                          Raúl Ramírez 			              8-966-1616
+                                          Raúl Ramírez 			                8-966-1616
 
-                                          Anwar Rassoul 			            8-963-1426
+                                          Anwar Rassoul 			              8-963-1426
 
-                                          Ana Saa				                  8-964-1448
+                                          Ana Saa				                    8-964-1448
 
-                                          Analissa Santos                 8-963-703                           
+                                          Analissa Santos                   8-963-703                           
 
 
                                                           GRUPO 1SF131
